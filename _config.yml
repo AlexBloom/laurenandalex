@@ -1,0 +1,52 @@
+# Site settings
+title: Lauren and Alex - 2019
+email: laurenandalex2019@gmail.com
+author: Lauren and Alex
+description:
+
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+facebook_username:
+twitter_username:
+instagram_username:
+dribbble_username:
+tumblr_username:
+medium_username:
+github_username:
+
+permalink:
+
+collections: #collectionname
+collections:
+  #collectionname:
+    #output: true
+    #permalink: /collectionname/:path/
+
+sass:
+    style: compressed
+
+#assets:
+# compress:
+#   css: true
+  # js: false | true | default - development: false, production: true
+# cache: false | directory | default: .asset-cache
+# prefix: "/assets"
+# assets:
+#   - "*.png"
+#   - "bundle.css"
+# digest: true
+# sources:
+#   - "_assets/folder"
+
+# Build settings
+markdown: kramdown
+
+# Exclusions from Build
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - .sass-cache
+# exclude: [gulpfile, .sass-cache]
