@@ -1,0 +1,47 @@
+button{
+  background-color:$white;
+  border:none;
+  font-weight:600;
+  font-size:$h5;
+}
+
+a.button{
+  background-color:$green;
+  color:$white;
+  border-radius:.5em;
+  text-transform:uppercase;
+  letter-spacing: .1em;
+  font-weight:600;
+  font-size:1rem;
+  padding:1rem 2rem;
+  text-decoration:none;
+  box-shadow:none;
+  &:hover{
+    background-color:darken($green, 5%);
+    box-shadow:none;
+  }
+  &:active{
+    background-color:$green;
+    color:$white;
+    box-shadow:none;
+  }
+}
+.button-outline{
+
+}
+
+.btn-circle{
+  display:block;
+  margin:auto;
+  border-radius:50%;
+  height:6rem;
+  width:6rem;
+  padding:1rem;
+}
+.btn
+.icon-big {
+  width: 4rem;
+  height: 4rem;
+}
+
+.fill-black { fill: black;}
