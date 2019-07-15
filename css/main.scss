@@ -37,6 +37,14 @@ visibility: visible;
 .bg-repeat-none{
   background-repeat:no-repeat;
 }
+.icon{
+  height:3rem;
+  width:3rem;
+  fill:currentColor;
+}
+svg{
+  fill:currentColor;
+}
 // .button{
 //   color:$white;
 //   background-color:$red;

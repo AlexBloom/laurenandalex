@@ -1,12 +1,12 @@
 $color-list: (
 "white"   #FFF,
-"green"   #0A4727,
-"gold"    #AE976D,
+"green"   #00764D,
+"gold"    #AD976E,
 "black"   #111
 );
 
-$green: #0A4727;
-$gold: #AE976D;
+$green: #00764D;
+$gold: #AD976E;
 
 @each $value in $color-list {
   .#{nth($value, 1)} {
